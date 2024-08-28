@@ -1,9 +1,7 @@
-# No Run Notify
+# Lambda Log Notify
 
 ## Summary
-Accepts two input variables:
-- email: the email address to subscribe to the SNS topic notification sent when lambda hasn't run
-- lambda_name: the name of lambda function to check 
+Send an email when a run lambda logs specific text to cloudwatch log
 
 ## Requirements
 terraform setup & running
